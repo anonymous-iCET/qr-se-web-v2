@@ -160,7 +160,7 @@ section:not(.hero):nth-child(even) {
 
 .grid {
 	width:100%;
-	display:flexbox;
+	display:flex;
 	flex-wrap:wrap;
 	justify-content:center;
 }
@@ -326,3 +326,7 @@ footer p {
 
 
 /* ------------------------------------------------------------- */
+
+.wrapper{
+	background-color: #3751b5;
+}
