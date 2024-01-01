@@ -160,7 +160,7 @@ section:not(.hero):nth-child(even) {
 
 .grid {
 	width:100%;
-	display:flex;
+	display:flexbox;
 	flex-wrap:wrap;
 	justify-content:center;
 }
@@ -326,37 +326,3 @@ footer p {
 
 
 /* ------------------------------------------------------------- */
-
-.wrapper {
-  animation: scroll 0s normal;
-  background: url("/assert/img/pexels-felix-mittermeier-956981.jpg"),
-    #111111;
-  color: #eee;
-  height: 100vh;
-  min-width: 360px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  perspective: 1000px;
-  perspective-origin: 50% 50%;
-}
-
-@keyframes scroll {
-  100% {
-    background-position: 0px -400%;
-  }
-}
-
-/* Fallback if the operatring system prefers reduced motion*/
-@media (prefers-reduced-motion) {
-  .wrapper {
-    animation: scroll 1500s linear infinite;
-  }
-}
-
-@media (min-width: 670px) {
-  .title {
-    font-size: 5rem;
-  }
-}
