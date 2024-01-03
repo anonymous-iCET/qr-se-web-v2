@@ -215,6 +215,7 @@ section p {
     background-size: cover;
     background-position: center;
     width: 60%;
+    margin: 5px;
 }
 
 .packages .grid li {

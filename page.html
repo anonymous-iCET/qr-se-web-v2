@@ -45,18 +45,27 @@
                 <hr>
                 <ul class>
                     <li class>
-                        <img class="galaryImg" src="assert/img/suc01.jpeg" alt>
+                       
                     </li>
                     <li class>
-                        <img class="galaryImg" src="assert/img/suc02.jpeg" alt>
+                        
                     </li>
                     <li class>
-                        <img class="galaryImg" src="assert/img/suc03.jpeg" alt>
                     </li>
                     <li class>
-                        <img class="galaryImg" src="assert/img/suc04.jpeg" alt>
+                        
                     </li>
                 </ul>
+
+                <div style="display: flex; margin: 5px;" class="imgSection01">
+                    <img class="galaryImg" src="assert/img/suc01.jpeg" alt>
+                    <img class="galaryImg" src="assert/img/suc02.jpeg" alt>
+                </div>
+                
+                <div style="display: flex; margin: 5px;" class="imgSection02">
+                    <img class="galaryImg" src="assert/img/suc04.jpeg" alt>
+                    <img class="galaryImg" src="assert/img/suc03.jpeg" alt>
+                </div>
 
                 <section class="packages">
                     <h3 class="title">Lorem ipsum dolor sit, amet consectetur
@@ -206,6 +215,22 @@
             }
             .title.titleOpOn{
                 opacity: 1;
+            }
+
+            .imgSection01{
+                transform: translateX(-50%);
+                transition: 400ms transform ease-in;
+            }
+            .imgSection01.onset01{
+                transform: translateX(0%);
+            }
+
+            .imgSection02{
+                transform: translateX(50%);
+                transition: 400ms transform ease-in;
+            }
+            .imgSection02.onset02{
+                transform: translateX(0%);
             }
         </style>
 
