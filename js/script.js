@@ -5,7 +5,8 @@ let targatImgSec2 = document.querySelector(".imgSection02");
 
 const options = {
     threshold : 0.5,
-    rootMargin:"0px 0px 0px 0px"
+    rootMargin:"0px 0px 0px 0px",
+    root : null
 };
 
 
@@ -15,12 +16,18 @@ const observer = new IntersectionObserver(function(entries){
         console.log(entry.target);
 
         const intersecting = entry.isIntersecting;
-        console.log(intersecting);
+        
         if(intersecting){
             entry.target.classList.add("opacityOn");
             entry.target.classList.add("titleOpOn");
             entry.target.classList.add("onset01");
             entry.target.classList.add("onset02");
+            observer.unobserve(targat);
+        }else{
+            // entry.target.classList.add("testimonials");
+            // entry.target.classList.add("title");
+            // entry.target.classList.add("imgSection01");
+            // entry.target.classList.add("imgSection02");
         }
     })
 
