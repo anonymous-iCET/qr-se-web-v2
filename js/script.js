@@ -22,7 +22,7 @@ const observer = new IntersectionObserver(function(entries){
             entry.target.classList.add("titleOpOn");
             entry.target.classList.add("onset01");
             entry.target.classList.add("onset02");
-            observer.unobserve(targat);
+            
         }else{
             // entry.target.classList.add("testimonials");
             // entry.target.classList.add("title");
