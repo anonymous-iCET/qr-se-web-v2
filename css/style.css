@@ -214,8 +214,8 @@ section p {
 .galaryImg {
     background-size: cover;
     background-position: center;
-    width: 60%;
-    margin: 5px;
+    width: 40%;
+    margin: 10px;
 }
 
 .packages .grid li {
