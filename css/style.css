@@ -1,18 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font: normal 16px Raleway;
-    color: #555;
-}
-
-ul, nav {
-    list-style: none;
-}
-
+* {margin: 0;padding: 0;box-sizing: border-box;}
+html {font: normal 16px Raleway;}
+ul, nav {list-style: none;}
 a {
     text-decoration: none;
     opacity: 0.75;
@@ -22,7 +10,6 @@ a {
 a:hover {
     opacity: 1;
 }
-
 @keyframes fadeIn {
     100% {
         opacity: 1;
@@ -35,10 +22,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 100px 0;
+    padding: 52px 123px 0;
     opacity: 0;
-    animation: fadeIn 1s 0.5s forwards ease-in;
-    color: #fff;
+    animation: fadeIn 1s 1.5s forwards ease-in;
 }
 
 nav {
@@ -80,11 +66,11 @@ section:not(.hero):nth-child(even) {
 }
 
 .btn {
-    border-radius: 4px;
+    border-radius: 10px;
     text-transform: uppercase;
     background-color: #3751b5;
     opacity: 1;
-    font-weight: bold;
+    font-weight: 900;
     color: #fff;
 }
 
@@ -107,17 +93,17 @@ section:not(.hero):nth-child(even) {
 }
 
 .hero h1 {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 15px;
 }
 
 .hero h3 {
-    font-size: 28px;
-    margin-bottom: 40px;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 
 .hero a.btn {
-    padding: 20px 46px;
+    padding: 20px 20px;
 }
 
 .hero-content {
@@ -139,15 +125,16 @@ section:not(.hero):nth-child(even) {
     }
 
     .hero h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .hero h2 {
-        font-size: 24px;
+        font-size: 10px;
+        text-align: justify;
     }
 
     .hero a.btn {
-        padding: 15px 40px;
+        padding: 20px 20px;
     }
 }
 
@@ -159,11 +146,10 @@ section:not(.hero):nth-child(even) {
 }
 
 hr {
-    width: 250px;
-    height: 3px;
-    background-color: #3f51b5;
-    border: 0;
-    margin: 50px;
+    width: 300px;
+    height: 2px;
+    background-color: #3751b5;
+    margin: 30px;
 }
 
 section h3.title {
@@ -179,6 +165,7 @@ section p {
     padding: 0 20px;
     margin-bottom: 30px;
     text-align: center;
+    text-align: justify;
 }
 
 .destinations .grid li {
